@@ -1,0 +1,47 @@
+body {
+  margin: 10%;
+  line-height: 1.5;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: rgb(20, 68, 107);
+  text-shadow: 2px;
+}
+img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid gray;
+  border-style: double;
+  border-radius: 7px;
+  margin-bottom: 50px;
+  transition: transform 0.2s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+.pit {
+  font-size: 1.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(42, 91, 134, 0.808);
+}
+#paraf {
+  color: antiquewhite;
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: green;
+}

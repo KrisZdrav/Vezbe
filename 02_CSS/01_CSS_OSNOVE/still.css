@@ -1,0 +1,13 @@
+h3 {
+  color: gold;
+  text-decoration: line-through;
+}
+p {
+  color: rgb(122, 70, 6);
+}
+#prvi {
+  text-align: center;
+}
+.zuta_pozadina {
+  background-color: yellow;
+}

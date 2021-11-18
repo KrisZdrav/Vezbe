@@ -1,0 +1,46 @@
+.crveni_paragraf {
+  color: red;
+}
+.desno_poravnanje {
+  text-align: right;
+}
+h3,
+h4 {
+  color: orange;
+}
+.drugi,
+#treci {
+  color: blue;
+}
+
+/* Prioritet
+id > klasa > selektor 
+*/
+li {
+  color: green;
+}
+.kurs {
+  color: blue;
+}
+#redd {
+  color: red;
+}
+
+/*SELEKTOVATI SVE P UNUTAR DIV ELEMENTA*/
+
+div p {
+  text-decoration: underline;
+}
+div .podparagraf {
+  font-weight: bold;
+}
+
+/*SELEKTUJE SAMO DIREKTNE POTOMKE*/
+#divizija > p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*SELEKTUJE SVAKI TRECI UNUTAR LISTE, 3n je BROJ DELJIV SA 3 (3, 6, 9) a treci je samo broj, odd, even*/
+ol li:nth-child(3n) {
+  font-style: italic;
+}
